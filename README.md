@@ -1,5 +1,7 @@
 # tb to display hello world
-https://edaplayground.com/x/mzi_
+https://edaplayground.com/x/KXZ6
+
+
 class hello;
   
   function void display();
