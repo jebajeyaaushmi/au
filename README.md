@@ -1,5 +1,21 @@
-# au
+# tb to display hello world
 
-{your link here}
+class hello;
+  
+  function void display();
+    $display("HELLO WORLD");
+  endfunction
+  
+endclass
 
-https://edaplayground.com/x/mzi_
+module top();  
+  hello h;
+  initial
+    begin
+   
+  h = new();   
+  h.display();
+    end
+  
+endmodule
+
